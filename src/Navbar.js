@@ -8,7 +8,7 @@ const Navbar = ()=>{
  }
     return(
         
- <div>
+ <div class="nav-bar-fixed">
   <nav  className="nav-extended black z-depth-5 section scrollspy">
     <div className="nav-wrapper">
       <a href="#" className="brand-logo"><img style={imgStyles} src={"https://cdn.dribbble.com/users/207265/screenshots/1000873/mp_black.png"}/></a>
