@@ -5,11 +5,11 @@ const Footer = ()=>{
     let iconStyle = {fontSize:'50px'}
     return (
         <div>
-      <footer className="page-footer black">
+      <footer id="contact" className="page-footer black section scrollspy">
   <div className="container">
     <div className="row">
       <div className="col l6 s12">
-        
+      <a className="grey-text text-lighten-4 right" href="#top"><i className="material-icons">navigation</i></a>
        
       </div>
       <div className="col l4 offset-l2 s12">
@@ -26,7 +26,7 @@ const Footer = ()=>{
   <div className="footer-copyright">
     <div className="container">
       © 2019 Copyright 
-      <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+     
     </div>
   </div>
 </footer>
