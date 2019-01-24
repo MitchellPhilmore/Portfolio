@@ -6,6 +6,7 @@ const Navbar = ()=>{
      width:"110px",
      height:"110px"
  }
+let iframe = {width:"100%",height:"1500px"}
     return(
         
  <div class="nav-bar-fixed">
@@ -26,15 +27,31 @@ const Navbar = ()=>{
         <li className="tab"><a  className="active"  href="#about">About</a></li>
         <li className="tab"><a href="#portfolio">Portfolio</a></li>
         <li className="tab"><a href="#contact">Contact</a></li>
-        <li className="tab"><a href="#">Resume</a></li>
+        <li className="tab"><a className="modal-trigger" href="#modal1">Resume</a></li>
       </ul>
     </div>
   </nav>
   <ul className="sidenav" id="mobile-demo">
     <li><a href="sass.html"></a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">JavaScript</a></li>
+    <li><a href="badges.html">About</a></li>
+    <li><a href="collapsible.html">Portfolio</a></li>
   </ul>
+
+  
+
+<div  id="modal1" class="modal">
+  <div class="modal-content">
+    <iframe style={iframe} src="/resume.pdf"></iframe>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+
+
+
+
+
 </div>
 
     )
