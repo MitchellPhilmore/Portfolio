@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Typing from 'react-typing-animation';
-import image from "./image.png"
+import image from "./profile-pic.jpg"
 
 class About extends Component {
     constructor(props){
