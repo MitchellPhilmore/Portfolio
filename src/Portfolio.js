@@ -13,13 +13,14 @@ const Portfolio =()=>{
     <div className="card small z-depth-5">
       <div className="card-image">
         <img src={image}/>
-        <span className="card-title">Hotel Philmore</span>
+        <a href="https://hotel-app-prod.herokuapp.com/" target="_blank"> <span className="card-title">Hotel Philmore</span></a>
       </div>
       <div className="card-content">
         <p>Full stack project that utilizes Express,Mongodb, and progressive web technology</p>
       </div>
     </div>
   </div>
+
 
 
     )

@@ -13,19 +13,28 @@ const Footer = ()=>{
        
       </div>
       <div className="col l4 offset-l2 s12">
-        <h5 className="white-text">Contact</h5>
-        <ul>
-          <li><a className="grey-text text-lighten-3" href="#!"><i style={iconStyle} class="fab fa-github"></i></a></li>
-          <li><a className="grey-text text-lighten-3" href="#!"><i style={iconStyle}  class="fab fa-linkedin-in"></i></a></li>
+        <h4 className="white-text">Contact</h4>
+        <div className="col m3">
+        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle} class="fab fa-github"></i></a>
+        </div>
+        <div className="col m3">
+        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle}  class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div className="col m3">
+        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle}  class="far fa-envelope"></i></a>
+        </div>
+        
+          
+         
          
           
-        </ul>
+      
       </div>
     </div>
   </div>
   <div className="footer-copyright">
     <div className="container">
-      © 2019 Copyright 
+      © 2019 Mitchell Philmore
      
     </div>
   </div>

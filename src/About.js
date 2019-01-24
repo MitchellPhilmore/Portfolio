@@ -34,9 +34,8 @@ componentDidMount(){
         <div className="col m5">
         <Typing>
         <h1 id="about" style={this.state.h1Style} > ABOUT ME </h1> 
-        <h5 style={this.state.h1Style} className = "typewriter h3 section scrollspy" > Hello, my name is Mitchell Philmore. I 'm a full stack developer based out of Philadelphia,PA. Feel free to take a look at my latest projects on the 
-        portfolio page
-        . </h5> 
+        <h5 style={this.state.h1Style} className = "typewriter h3 section scrollspy" > Hello, my name is Mitchell Philmore. I 'm a full stack developer based out of Philadelphia,PA. My current toolset includes MongoDB, Express, React, and  Node.js. Feel free to contact me or check out my latest projects. 
+         </h5> 
         </Typing>
 
         

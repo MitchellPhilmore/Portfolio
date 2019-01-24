@@ -9,7 +9,7 @@ const Navbar = ()=>{
     return(
         
  <div class="nav-bar-fixed">
-  <nav  className="nav-extended black z-depth-5 section scrollspy">
+  <nav  className="nav-extended black z-depth-5 section scrollspy animated fadeInDown">
     <div className="nav-wrapper">
       <a href="#" className="brand-logo"><img style={imgStyles} src={"https://cdn.dribbble.com/users/207265/screenshots/1000873/mp_black.png"}/></a>
       <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
@@ -26,6 +26,7 @@ const Navbar = ()=>{
         <li className="tab"><a  className="active"  href="#about">About</a></li>
         <li className="tab"><a href="#portfolio">Portfolio</a></li>
         <li className="tab"><a href="#contact">Contact</a></li>
+        <li className="tab"><a href="#">Resume</a></li>
       </ul>
     </div>
   </nav>
