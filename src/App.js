@@ -4,6 +4,10 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Skills from './Skills'
 import Footer from './Footer'
+import image from './project1.png' 
+import comingSoon from './coming-soon.png'
+
+
 
 const App = ()=>{
  let  divider = {width:'100%'}
@@ -26,9 +30,9 @@ const App = ()=>{
     </div>
     </div>
     <div className="row" style={divider}>
-    <Portfolio/>
-    <Portfolio/>
-    <Portfolio/>
+    <Portfolio imgSrc={image} content='Full stack project that utilizes Express, Mongodb, and progressive web technology' title='Hotel Philmore'/>
+    <Portfolio imgSrc={comingSoon}/>
+    <Portfolio imgSrc={comingSoon}/>
 </div>
 <div className="col m12">
  <Skills/>
