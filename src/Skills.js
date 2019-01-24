@@ -14,6 +14,7 @@ const Skills = ()=>{
   <div className="row">
   <div className="col s12 m12">
     <div className="card large">
+
       <div className="card-image col m2 s6 hoverable">
         <img style={icon} src="http://icons.iconarchive.com/icons/igh0zt/ios7-style-metro-ui/512/MetroUI-Apps-HTML-5-icon.png" />
       </div>
@@ -29,6 +30,9 @@ const Skills = ()=>{
       </div>
       <div className="card-image col m2 s6 hoverable">
         <img style={icon} src="https://www.servernoobs.com/wp-content/uploads/2016/01/mongodb-logo-1.png" />
+      </div>
+      <div className="card-image col m2 s6 hoverable">
+        <img style={icon} src="https://i1.wp.com/pilcrowmultimedia.com.au/wp-content/uploads/css-3.gif?fit=250%2C250" />
       </div>
 
 
