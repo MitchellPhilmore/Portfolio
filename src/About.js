@@ -20,7 +20,22 @@ class About extends Component {
 
 componentDidMount(){
    
-    console.log(this.state.about)
+let i = 0,
+   speed = 100;
+   
+let aboutTxt = `Hello, my name is Mitchell Philmore. I 'm a full stack developer based out of Philadelphia,PA. My current toolset includes MongoDB, Express, React, and  Node.js. Feel free to contact me or check out my latest projects.`
+
+
+
+let typeWriter = ()=> {
+  if (i < aboutTxt.length) {
+    document.querySelector("#aboutInfo").innerHTML += aboutTxt[i];
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter()
+
 }
 
 
@@ -32,11 +47,12 @@ componentDidMount(){
         <img style={this.state.imgStyle} src={image}/>
         </div>
         <div className="col m5">
-        <Typing>
+      
         <h1 id="about" style={this.state.h1Style} > ABOUT ME </h1> 
-        <h5 style={this.state.h1Style} className = "typewriter h3 section scrollspy" > Hello, my name is Mitchell Philmore. I 'm a full stack developer based out of Philadelphia,PA. My current toolset includes MongoDB, Express, React, and  Node.js. Feel free to contact me or check out my latest projects. 
-         </h5> 
-        </Typing>
+        <h5 id="aboutInfo" style={this.state.h1Style} className = "typewriter h3 section scrollspy" ></h5> 
+      
+   
+       
 
         
         </div>
