@@ -6,6 +6,8 @@ const Navbar = ()=>{
      width:"110px",
      height:"110px"
  }
+let fontStyle = {fontFamily: 'Gochi Hand', fontSize:'120%'}
+
 let iframe = {width:"100%",height:"1500px"}
     return(
         
@@ -20,14 +22,14 @@ let iframe = {width:"100%",height:"1500px"}
         <li><a href="https://www.linkedin.com/in/mitchellphilmore/" target='_blank'><i class="fab fa-linkedin-in"></i></a></li>
         <li><a href="https://www.twitter.com" target='_blank'><i class="fab fa-twitter"></i></a></li>
       </ul>
-    </div>
+    </div> 
     <br/>
     <div className="nav-content">
       <ul className="tabs tabs-transparent">
-        <li className="tab"><a  className="active"  href="#about">About</a></li>
-        <li className="tab"><a href="#portfolio">Portfolio</a></li>
-        <li className="tab"><a href="#contact">Contact</a></li>
-        <li className="tab"><a className="modal-trigger" href="#modal1">Resume</a></li>
+        <li className="tab"><a style={fontStyle}  className="active"  href="#about">About</a></li>
+        <li className="tab"><a style={fontStyle} href="#portfolio">Portfolio</a></li>
+        <li className="tab"><a style={fontStyle} href="#contact">Contact</a></li>
+        <li className="tab"><a style={fontStyle} className="modal-trigger" href="#modal1">Resume</a></li>
       </ul>
     </div>
   </nav>
