@@ -16,7 +16,7 @@ let iframe = {width:"100%",height:"1500px"}
       <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><a href="mailto:mitchellphilmore@gmail.com"><i class="far fa-envelope"></i></a></li>
-        <li><a href="https://www.facebook.com" target='_blank'><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://github.com/MitchellPhilmore" target='_blank'><i class="fab fa-github"></i></a></li>
         <li><a href="https://www.linkedin.com/in/mitchellphilmore/" target='_blank'><i class="fab fa-linkedin-in"></i></a></li>
         <li><a href="https://www.twitter.com" target='_blank'><i class="fab fa-twitter"></i></a></li>
       </ul>

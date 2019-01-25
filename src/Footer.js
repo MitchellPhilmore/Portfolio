@@ -2,7 +2,8 @@ import React from 'react'
 
 
 const Footer = ()=>{
-    let iconStyle = {fontSize:'50px'}
+    let fontStyle = {fontSize:'200%', lineHeight:'30%', textAlign:'center',fontFamily: 'Gochi Hand'}
+    let iconStyle = {fontSize:'30px'}
     return (
         <div>
       <footer id="contact" className="page-footer black section scrollspy">
@@ -13,15 +14,15 @@ const Footer = ()=>{
        
       </div>
       <div className="col l4 offset-l2 s12">
-        <h4 className="white-text">Contact</h4>
+        <h4 style={fontStyle} className="white-text">Contact me</h4>
         <div className="col m3">
-        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle} class="fab fa-github"></i></a>
+        <a className="grey-text text-lighten-3 hoverable" href="https://github.com/MitchellPhilmore" target="_blank"><i style={iconStyle} class="fab fa-github"></i></a>
         </div>
         <div className="col m3">
-        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle}  class="fab fa-linkedin-in"></i></a>
+        <a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/mitchellphilmore/" target="_blank"><i style={iconStyle}  class="fab fa-linkedin-in"></i></a>
         </div>
         <div className="col m3">
-        <a className="grey-text text-lighten-3" href="#!"><i style={iconStyle}  class="far fa-envelope"></i></a>
+        <a className="grey-text text-lighten-3" href="mailto:mitchellphilmore@gmail.com"><i style={iconStyle}  class="far fa-envelope"></i></a>
         </div>
         
           
