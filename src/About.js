@@ -23,7 +23,7 @@ componentDidMount(){
 let i = 0,
    speed = 100;
    
-let aboutTxt = `Hello, my name is Mitchell Philmore. I 'm a full stack developer based out of Philadelphia,PA. My current toolset includes MongoDB, Express, React, and  Node.js. Feel free to contact me or check out my latest projects.`
+let aboutTxt = `Hello, my name is Mitchell Philmore. I 'am a full stack developer based out of Philadelphia,PA. My current toolset includes MongoDB, Express, React, and  Node.js. Feel free to contact me or check out my latest projects.`
 
 
 
