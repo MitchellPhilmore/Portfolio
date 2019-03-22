@@ -20,7 +20,11 @@ class Portfolio extends Component{
   <div className="card small z-depth-5">
     <div className="card-image">
       <img src={this.props.imgSrc}/>
-      <a href="https://hotel-app-prod.herokuapp.com/" target="_blank"> <span className="card-title">{this.props.title}</span></a>
+      <a href={
+        this.props.title === 'Hotel Philmore'?'https://hotel-app-prod.herokuapp.com/':
+        this.props.title === 'Speciality Pharmacy Database'? 'https://speciality-pharmacy.herokuapp.com/':
+        ''
+    } target="_blank"> <span className="card-title">{this.props.title}</span></a>
     </div>
     <div className="card-content">
       <p>{this.props.content}</p>
