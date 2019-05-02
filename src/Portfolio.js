@@ -23,8 +23,9 @@ class Portfolio extends Component{
       <a href={
         this.props.title === 'Hotel Philmore'?'https://hotel-app-prod.herokuapp.com/':
         this.props.title === 'Speciality Pharmacy Database'? 'https://speciality-pharmacy.herokuapp.com/':
-        ''
-    } target="_blank"> <span className="card-title">{this.props.title}</span></a>
+        this.props.title === 'sas'? 'http://starsandstripesdrivingschool.com/':
+        null
+    } target="_blank"> <span style={{opacity:0}} className="card-title">{this.props.title}</span></a>
     </div>
     <div className="card-content">
       <p>{this.props.content}</p>
