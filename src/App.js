@@ -38,8 +38,8 @@ const App = ()=>{
 
     <Portfolio  imgSrc={starsAndStripes} content="React SPA for Philadelphia driving school." title="sas"/>
 
-    <Portfolio imgSrc={speciality} content='Freelance Single page React project' title="Speciality Pharmacy Database"/>
-    
+    <Portfolio imgSrc={speciality} content="React SPA" title="Speciality Pharmacy Database"/>
+
     <Portfolio imgSrc={image2} content=' Single page full stack project that utlizes Express,MongoDB,React, and Redux' title="Find My Barber"/>
     
 </div>
