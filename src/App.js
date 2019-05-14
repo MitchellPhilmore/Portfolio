@@ -40,7 +40,7 @@ const App = ()=>{
 
     <Portfolio imgSrc={speciality} content="React SPA" title="Speciality Pharmacy Database"/>
 
-    <Portfolio imgSrc={image2} content=' Single page full stack project that utlizes Express,MongoDB,React, and Redux' title="Find My Barber"/>
+    <Portfolio imgSrc={comingSoon} content=' Single page full stack project that utlizes Express,MongoDB,React, and Redux' title="Find My Barber"/>
     
 </div>
 <div className="col m12">
