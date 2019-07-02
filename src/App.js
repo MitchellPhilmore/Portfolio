@@ -9,6 +9,7 @@ import comingSoon from './coming-soon.png'
 import image2 from './findmybarber.PNG'
 import starsAndStripes from './starsandstripes.PNG'
 import speciality from './speciality.PNG'
+import weatherApp from './weatherapp-snapshot.PNG'
 
 
 
@@ -39,6 +40,8 @@ const App = ()=>{
     <Portfolio  imgSrc={starsAndStripes} content="React SPA for Philadelphia driving school." title="sas"/>
 
     <Portfolio imgSrc={speciality} content="React SPA" title="Speciality Pharmacy Database"/>
+
+    <Portfolio imgSrc={weatherApp} content="React-PWA weather app" title="Weather App"/>
 
     <Portfolio imgSrc={comingSoon} content=' Single page full stack project that utlizes Express,MongoDB,React, and Redux' title="Find My Barber"/>
     
