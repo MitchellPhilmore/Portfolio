@@ -8,8 +8,8 @@ import image from './project1.png'
 import comingSoon from './coming-soon.png'
 import image2 from './findmybarber.PNG'
 import starsAndStripes from './starsandstripes.PNG'
-import speciality from './speciality.PNG'
-import weatherApp from './weatherapp-snapshot.PNG'
+import speciality from './speciality-pharmacy.gif'
+import weatherApp from './weatherapp-snapshot.gif'
 
 
 
