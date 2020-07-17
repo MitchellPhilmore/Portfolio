@@ -17,7 +17,7 @@ class Portfolio extends Component {
     return (
       <div
         id="portfolio"
-        className="col s12 m4 animated fadeInUp section scrollspy"
+        className="col s12 m3 animated fadeInUp section scrollspy"
       >
         <div className="card small z-depth-5">
           <div className="card-image">
